@@ -48,7 +48,7 @@
 |---------------------------|--------------------------|------------|
 | Frontend Development       | HE/HE/HEHEHE               | HEHEHE |
 | Backend Development        | HE/HE/HEHEHE             | HEHEHE |
-| Model Hosting              | HE/HE/HEHEHE                | HEHEHE |
+| Model Hosting (Lang Flow)  | HE/HE/HEHEHE                | HEHEHE |
 | Database Setup             | HE/HE/HEHEHE                 | HEHEHE |
 
 ## Features
