@@ -3,7 +3,7 @@
 ## Project Overview
 * In Progress - 25% Done
 
-**Goal**: To enhance an existing notes application by integrating an AI-driven assistant using the LLaVA model and Langflow. This will allow users to create, manage, and interact with their personal notes, providing intelligent responses and insights based on the content of their notes.
+**Goal**: To enhance my existing notes application by integrating an AI-driven assistant using the LLaVA model and Langflow. This will allow users to create, manage, and interact with their personal notes, providing intelligent responses and insights based on the content of their notes.
 
 ## Key Components
 
