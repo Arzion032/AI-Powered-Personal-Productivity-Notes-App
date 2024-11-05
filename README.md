@@ -25,7 +25,6 @@
   - **Technologies Used**: 
     - **React**: For building interactive user interfaces.
     - **Chakra UI**: For accessible and responsive component design.
-    - **Redux or Context API** (to be implemented): For state management across components.
 
 - **Backend**: Flask - 45% Done
   - **Technologies Used**:
@@ -37,42 +36,12 @@
   - **Technologies Used**:
     - **Ollama**: To host and run the LLaVA model for processing AI queries.
     - **Langflow**: To streamline the AI query process and improve response accuracy.
-    - **Docker** (to be used): For containerization of the model environment, ensuring consistency in deployment.
+    - **Docker** (will try to use): For containerization of the model environment, ensuring consistency in deployment. 
 
 - **Database**: AstraDB - 0% Done (Current database is SQLite)
   - **Technologies Used**:
     - **AstraDB**: A managed database service for storing user notes and metadata.
     - **SQLite**: Currently being used for local development and testing before migrating to AstraDB.
-
-## Development Progress
-
-- **Frontend**: React, Chakra UI - 50% Done
-  - **Current Status**: The user interface has been designed and implemented for creating, viewing, and managing notes. Basic components such as forms, buttons, and note lists are functional.
-  - **Next Steps**:
-    - Integrate state management (e.g., using React Context or Redux) to handle note data globally.
-    - Implement user authentication (optional) to secure personal notes.
-    - Optimize the UI for better user experience and responsiveness on mobile devices.
-
-- **Backend**: Flask - 45% Done
-  - **Current Status**: The Flask application has been set up with basic routes for creating and retrieving notes. Connection to the AstraDB is in progress.
-  - **Next Steps**:
-    - Finalize the database integration with AstraDB.
-    - Implement API endpoints for updating and deleting notes.
-    - Develop the endpoint for querying the LLaVA model with user prompts.
-
-- **Model Hosting**: Ollama (LLaVA) - 0% Done
-  - **Current Status**: The setup for hosting the LLaVA model has not yet been completed.
-  - **Next Steps**:
-    - Pull and run the LLaVA model using Ollama.
-    - Create a wrapper for API calls to the model from the Flask backend.
-    - Test the integration of the model with example prompts using Langflow.
-
-- **Database**: AstraDB - 0% Done
-  - **Current Status**: The database schema has not yet been defined or implemented.
-  - **Next Steps**:
-    - Define the database schema for storing notes, including fields for title, description, and timestamps.
-    - Implement database connection logic in the Flask backend.
-    - Populate the database with initial test data.
 
 ## Implementation Timeline
 | Phase                     | Estimated Completion Date | Status     |
