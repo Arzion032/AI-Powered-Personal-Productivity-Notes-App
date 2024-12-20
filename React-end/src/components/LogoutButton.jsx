@@ -13,7 +13,7 @@ const LogoutButton = () => {
         method: 'POST',
         headers: {
           'Content-Type': 'application/json',
-        }, // Include credentials if you're using cookies for authentication
+        },
       });
 
       if (response.ok) {
