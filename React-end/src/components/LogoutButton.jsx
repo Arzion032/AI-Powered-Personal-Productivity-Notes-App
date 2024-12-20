@@ -1,10 +1,9 @@
 import React from 'react';
 import { Button, useToast } from '@chakra-ui/react';
 import { useNavigate } from 'react-router-dom';
-import { useAuth } from './AuthContext';  // Assuming you're using the AuthContext for auth state
-
+import { useAuth } from './AuthContext';  
 const LogoutButton = () => {
-  const { setUserId, setIsAuthenticated } = useAuth(); // Destructure the auth context
+  const { setUserId, setIsAuthenticated } = useAuth(); 
   const navigate = useNavigate();
   const toast = useToast();
 
@@ -33,7 +32,6 @@ const LogoutButton = () => {
         setUserId(null);
         setIsAuthenticated(false);
 
-        // Optionally clear localStorage if you're storing user info there
         localStorage.removeItem('userId');
 
         // Redirect to login or home page
@@ -51,7 +49,6 @@ const LogoutButton = () => {
         });
       }
     } catch (error) {
-      // Handle network or other errors
       toast({
         title: 'Error',
         description: 'An error occurred while logging out',
